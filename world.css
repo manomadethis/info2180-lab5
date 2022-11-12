@@ -11,21 +11,16 @@ body {
     width: 50%;
 }
 
-#lookup {
-    background-color: light-blue;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
-
 #lookup:hover {
-    background-color: blue;
+    background-color: dodgerblue;
     cursor: pointer;
 }
+
+#lookup_cities:hover {
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+
 
 #result {
     text-align: center;
@@ -35,6 +30,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 10px;
 }
 
 h1 {
